@@ -1,0 +1,8 @@
+# 環境配置
+.env
+.env.*
+!.env.example
+
+# n8n資訊
+n8n_data/*
+!n8n_data/.gitkeep
