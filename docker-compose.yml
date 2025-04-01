@@ -18,11 +18,11 @@ services:
     volumes:
       - n8n_data:/home/node/.n8n
     networks:
-      - wp_network
+      - srlwordpress_wp_network
 
 volumes:
   n8n_data:
 
 networks:
-  wp_network:
+  srlwordpress_wp_network:
     external: true
